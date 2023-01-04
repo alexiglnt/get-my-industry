@@ -1,0 +1,88 @@
+#map {
+    height: 500px;
+    width: 60%;
+    z-index: 1;
+
+    border-radius: 1em;
+    margin-top: 50px;
+}
+
+.ip-container {
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ip-container h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.ip-left-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ip-left 
+{
+    align-self: flex-start;
+    margin-left: 40px;
+}
+
+.ip-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ip-img-container {
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+
+.ip-img-container img {
+    max-height: 400px;
+    max-width: 400px;
+
+    border-radius: 1em;
+}
+
+.ip-description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-inline: 20em;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.ip-description details {
+    width: 1000px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 35px;
+}
+
+.ip-description summary {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #777;
+}
+
+h3 span {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    align-self: center;
+    font-weight: 400;
+    color: #333;
+    margin-left: 0.5em;
+}

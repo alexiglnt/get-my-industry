@@ -1,0 +1,125 @@
+.modale {
+    align-items: center;
+    align-self: center;
+
+    background-color: rgba(255, 255, 255, 0.489);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    overflow-y:hidden; 
+
+    z-index: 1000;
+}
+
+.modale-container {
+    padding-top: 30px;
+    padding-inline: 10px;
+
+    width: 1000px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 0.7em;
+    box-shadow: 0 0 8px rgba(51, 51, 51, 0.727);
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.modale-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.modale-content img {
+    
+    box-shadow: 0 0 6px rgba(51, 51, 51, 0.727);
+}
+
+.modale-left {
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+    border-radius: 0.7em;
+}
+
+.modale-left img {
+    width: 400px;
+    object-fit:contain;
+}
+
+.modale-right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.modale-right h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.modale-right p {
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.infos-modales {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    position: relative;
+}
+
+p.hoverNote {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-40px);
+
+    color: #777;
+}
+
+.modale-description {
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.btn-modale {
+    align-items: flex-end;
+}
+
+.btn-close-modale {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btn-close-modale:hover {
+    cursor: pointer;
+    color: var(--main-color);
+}
